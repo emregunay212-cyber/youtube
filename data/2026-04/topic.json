@@ -1,0 +1,40 @@
+{
+  "generatedAt": "2026-04-27T08:58:00.000Z",
+  "month": "2026-04",
+  "primary": {
+    "rank": 1,
+    "title": "Yapay Zeka Üretim Veritabanını Sildi: AI Ajanlarına Güvenin Sınırı Nerede?",
+    "angle": "Bir AI agent'ın canlı production database'i sildiği viral olay üzerinden, yapay zeka ajanlarının (Claude, GPT-based agents, Cursor, Replit gibi) gerçek dünyada hangi tehlikeleri taşıdığını, hangi koruma mekanizmalarını uygulamamız gerektiğini ve bu olayın AI hype'ı için ne anlama geldiğini Türk geliştirici ve teknoloji okuyucusuna net bir şekilde anlatıyoruz.",
+    "reasoning": "Bu konu üç güçlü sinyal taşıyor: (1) Hacker News'da 661 oy ve 811 yorumla 24 saat içinde viral oldu (hn-47911524) — anlatım gücü ve sosyal kanıt yüksek. (2) ArXiv'da aynı hafta yayımlanan iki paper (arxiv-2604.22750v1 'AI Agents Token Consumption' ve diğer agent-related çalışmalar) konunun akademik/teknik gündemde de aktif olduğunu doğruluyor. (3) Türk teknoloji izleyicisi için 'AI ajanlarına ne kadar yetki vermeliyim?' sorusu hem somut hem öğretici — 10 dakikalık anlatımda hikaye + çıkarım + pratik öneri yapısı kurulabilir. Konu son 3 gün içinde patladığı için başka Türk kanalları henüz işlememiş olma ihtimali yüksek; clickbait olmadan 'kanıt-temelli' bir başlıkla rakipsiz yer tutabiliriz.",
+    "sourceTrendIds": [
+      "hn-47911524",
+      "arxiv-2604.22750v1"
+    ],
+    "estimatedSearchInterest": "high",
+    "novelty": "fresh"
+  },
+  "alternatives": [
+    {
+      "rank": 2,
+      "title": "GPT-5.5 Çıktı: OpenAI'ın 'Süper Uygulama' Hedefi Sizin İçin Ne Anlama Geliyor?",
+      "angle": "OpenAI'ın yeni duyurduğu GPT-5.5 modelinin gerçek farkları, 'süper uygulama' stratejisinin Türk kullanıcılar için ne demek olduğu ve günlük kullanımda neyin değişeceği hakkında kanıt-temelli analiz.",
+      "reasoning": "Webrazzi'nin 24 Nisan tarihli GPT-5.5 duyurusu (webrazzi-openai-dan-sirketi-super-uygulama-hedefine-yaklastiran-yeni-model-gpt-5-5) Türkçe kaynaklı, son 3 gün içinde, 'GPT', 'yapay zeka' ve 'AI' anahtar kelimelerinin üçüyle de eşleşiyor. Türk kullanıcının arama ilgisi maksimum (her major OpenAI sürümü TR aramada zirveye çıkıyor). Eksisi: model launch videoları rekabetçi bir niche, ilk 24-48 saatte birçok kanal benzer içerik üretmiş olur — bu yüzden alternatif olarak listeledim, primary için viralliği ve özgünlüğü yüksek olan agent hikayesini tercih ettim.",
+      "sourceTrendIds": [
+        "webrazzi-openai-dan-sirketi-super-uygulama-hedefine-yaklastiran-yeni-model-gpt-5-5"
+      ],
+      "estimatedSearchInterest": "high",
+      "novelty": "fresh"
+    },
+    {
+      "rank": 3,
+      "title": "Yapay Zeka Ajanları Paranızı Nasıl Harcıyor? Token Maliyetinin Karanlık Tarafı",
+      "angle": "ArXiv'da yayımlanan ilk sistematik araştırma üzerinden, AI ajanlarının kodlama görevlerinde token'ı nereye harcadığını, hangi modellerin daha verimli olduğunu ve geliştiricilerin görev başlamadan maliyeti nasıl tahmin edebileceğini somut örneklerle anlatıyoruz.",
+      "reasoning": "ArXiv 2604.22750 paper'ı 24 Nisan'da yayımlandı ve agent token consumption üzerine ilk sistematik çalışma. Türk geliştirici izleyicisi için pratik (Cursor, Claude Code, agent SDK kullanan herkesi ilgilendiriyor) ve kanıt-temelli (peer-reviewed paper kaynaklı). Daha dar bir kitleye hitap ettiği için arama hacmi 'medium', ama yüksek dönüşüm/abone potansiyeli var. Primary konunun teknik tamamlayıcısı olabilecek nitelikte.",
+      "sourceTrendIds": [
+        "arxiv-2604.22750v1"
+      ],
+      "estimatedSearchInterest": "medium",
+      "novelty": "fresh"
+    }
+  ]
+}

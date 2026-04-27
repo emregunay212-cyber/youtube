@@ -1,0 +1,52 @@
+{
+  "name": "youtube-content-pipeline",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Aylık 1 long-form + 3 Shorts üreten yarı otomatik YouTube içerik pipeline'ı (TR, Bilim & Teknoloji)",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "check-env": "tsx scripts/tools/check-env.ts",
+    "trends": "tsx scripts/run-trends.ts",
+    "topic": "tsx scripts/run-topic.ts",
+    "script": "tsx scripts/run-script.ts",
+    "tts": "tsx scripts/run-tts.ts",
+    "tts:test": "tsx scripts/tools/test-elevenlabs.ts",
+    "visuals": "tsx scripts/run-visuals.ts",
+    "visuals:test": "tsx scripts/tools/test-visuals.ts",
+    "subtitles": "tsx scripts/run-subtitles.ts",
+    "compose": "tsx scripts/run-compose.ts",
+    "shorts": "tsx scripts/run-shorts.ts",
+    "monthly": "tsx scripts/run-monthly.ts",
+    "approve": "tsx scripts/upload-after-approval.ts --approve",
+    "reject": "tsx scripts/upload-after-approval.ts --reject",
+    "yt:auth": "tsx scripts/tools/refresh-yt-token.ts",
+    "remotion:studio": "remotion studio remotion/src/Root.tsx"
+  },
+  "dependencies": {
+    "@remotion/bundler": "^4.0.270",
+    "@remotion/cli": "^4.0.270",
+    "@remotion/renderer": "^4.0.270",
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "fast-xml-parser": "^4.5.1",
+    "fluent-ffmpeg": "^2.1.3",
+    "googleapis": "^144.0.0",
+    "node-notifier": "^10.0.1",
+    "p-limit": "^6.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.270",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/fluent-ffmpeg": "^2.1.27",
+    "@types/node": "^22.10.5",
+    "@types/node-notifier": "^8.0.5",
+    "@types/react": "^18.3.18",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}
