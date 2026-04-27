@@ -3,9 +3,9 @@ dist/
 .env
 .env.local
 
-# Pipeline binary outputs (regenerable; reproduce with `npm run tts && npm run visuals`)
-data/*/audio/
-data/*/voiceover.mp3
+# Pipeline binary outputs
+# audio/ + voiceover.mp3 → checked in (small, deterministic)
+# assets/ → ignored (regenerable; large; reproduce with `npm run visuals`)
 data/*/assets/
 data/*/*.raw.*
 
