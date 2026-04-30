@@ -18,11 +18,14 @@
     "visuals:test": "tsx scripts/tools/test-visuals.ts",
     "subtitles": "tsx scripts/run-subtitles.ts",
     "compose": "tsx scripts/run-compose.ts",
+    "avatar": "tsx scripts/run-avatar.ts",
     "shorts": "tsx scripts/run-shorts.ts",
+    "review": "tsx scripts/run-review.ts",
     "monthly": "tsx scripts/run-monthly.ts",
     "approve": "tsx scripts/upload-after-approval.ts --approve",
     "reject": "tsx scripts/upload-after-approval.ts --reject",
     "yt:auth": "tsx scripts/tools/refresh-yt-token.ts",
+    "sting:generate": "tsx scripts/tools/generate-sting.ts",
     "remotion:studio": "remotion studio remotion/src/Root.tsx"
   },
   "dependencies": {

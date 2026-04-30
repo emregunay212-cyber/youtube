@@ -6,8 +6,26 @@ dist/
 # Pipeline binary outputs
 # audio/ + voiceover.mp3 → checked in (small, deterministic)
 # assets/ → ignored (regenerable; large; reproduce with `npm run visuals`)
+# final-long.mp4 → ignored (>100MB GitHub limit; reproduce with `npm run compose`)
+# shorts/*.mp4 → ignored (regenerable; reproduce with `npm run shorts`)
+# music/*.mp3 → ignored (external asset; copied from data/_library/music/)
+# _preview/ → ignored (smoke-test render, throwaway)
 data/*/assets/
 data/*/*.raw.*
+data/*/final-long.mp4
+data/*/shorts/
+data/*/music/
+data/_preview/
+
+# Local Claude Code settings (per-machine permission allowlists)
+.claude/settings.local.json
+
+# Reusable asset library — track metadata/INDEX, ignore binaries
+data/_library/**/*.mp4
+data/_library/**/*.mp3
+data/_library/**/*.jpg
+data/_library/**/*.png
+data/_library/**/*.wav
 
 # Toolkit (cloned separately on each machine via setup script)
 video-toolkit/

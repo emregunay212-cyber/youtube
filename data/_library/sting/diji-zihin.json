@@ -1,0 +1,11 @@
+{
+  "id": "diji-zihin-sting",
+  "file": "diji-zihin.mp3",
+  "text": "Diji Zihin.",
+  "durationSec": 0.975238,
+  "type": "sonic-logo",
+  "createdAt": "2026-04-28T21:45:12.264Z",
+  "voiceProvider": "elevenlabs",
+  "purpose": "Channel name voice tag played during the 4s Diji Zihin intro animation. Reused across all videos.",
+  "regenerationNotes": "Delete the .mp3 file and run `npm run sting:generate` to regenerate (e.g. after voice clone update)."
+}

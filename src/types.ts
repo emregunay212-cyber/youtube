@@ -3,7 +3,8 @@ export type TrendSource =
   | "reddit"
   | "hackernews"
   | "arxiv"
-  | "webrazzi";
+  | "webrazzi"
+  | "manual";
 
 export interface TrendItem {
   source: TrendSource;

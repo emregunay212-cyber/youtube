@@ -97,6 +97,38 @@ function checkVisualMix(script: Script): ValidationIssue[] {
   return issues;
 }
 
+function checkBrandIdentity(script: Script): ValidationIssue[] {
+  const issues: ValidationIssue[] = [];
+  const channelMentionRegex = /diji\s*zihin/i;
+  const subscribeRegex = /abone|takip\s*et/i;
+
+  const hookText = script.hook.map((s) => s.voiceover).join(" ");
+  const ctaText = script.cta.map((s) => s.voiceover).join(" ");
+
+  if (!channelMentionRegex.test(hookText)) {
+    issues.push({
+      severity: "error",
+      message: 'Hook section must mention "Diji Zihin" at least once (brand identity requirement). Add "Diji Zihin\'e hoş geldin" or similar in one of the hook scenes.',
+    });
+  }
+
+  if (!channelMentionRegex.test(ctaText)) {
+    issues.push({
+      severity: "error",
+      message: 'CTA section must mention "Diji Zihin" at least once (brand identity requirement). Use the standard closer: "Diji Zihin\'i takip etmeyi unutma. Görüşmek üzere."',
+    });
+  }
+
+  if (!subscribeRegex.test(ctaText)) {
+    issues.push({
+      severity: "error",
+      message: 'CTA section must include a subscribe call ("abone ol" or "takip et"). This is mandatory for every Diji Zihin video.',
+    });
+  }
+
+  return issues;
+}
+
 function renderScriptMarkdown(script: Script, topic?: TopicArtifact): string {
   const totalScenes = script.hook.length + script.body.length + script.cta.length;
   const renderScene = (s: Scene, kind: string): string => {
@@ -203,6 +235,7 @@ export async function finalizeScript(month: string): Promise<Script> {
     ...checkWordsConsistency(script),
     ...checkDurationConsistency(script),
     ...checkVisualMix(script),
+    ...checkBrandIdentity(script),
   ];
 
   const errors = issues.filter((i) => i.severity === "error");

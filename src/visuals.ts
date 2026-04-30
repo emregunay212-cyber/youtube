@@ -208,7 +208,11 @@ function pexelsKeyword(visualHint: string): string {
   return words.slice(0, 4).join(" ") || visualHint.split(/\s+/).slice(0, 3).join(" ");
 }
 
-function buildFalPrompt(visualHint: string): string {
+function buildFalPrompt(visualHint: string, isPresenter: boolean = false): string {
+  if (isPresenter) {
+    const presenterContext = "Turkish male tech YouTuber presenter, age around 30, friendly intelligent expression, modern minimalist home studio with soft warm lighting, slight shallow depth of field, looking at camera, photorealistic portrait, cinematic 16:9 composition, dark blue and amber color palette";
+    return `${presenterContext}. Scene context: ${visualHint}.`;
+  }
   const themeContext = "AI agents and software engineering theme";
   const styleContext = "cinematic photography, dramatic lighting, dark blue and amber tones, futuristic technology aesthetic, high detail, photorealistic, 16:9 wide composition";
   return `${visualHint}. ${themeContext}. ${styleContext}.`;
@@ -233,10 +237,18 @@ async function processScene(
   scene: Scene,
   targetSec: number,
   outputPath: string,
+  isPresenter: boolean = false,
 ): Promise<SceneVisualResult> {
   await ensureDir(path.dirname(outputPath));
 
-  if (scene.visualType === "concrete") {
+  // Cache: skip if asset already rendered
+  if (await fileExists(outputPath)) {
+    log.info(`Scene ${scene.id}: cached (skip)`, { file: outputPath });
+    return { sceneId: scene.id, source: "fal", outputPath, targetSec };
+  }
+
+  // Presenter scenes always use fal.ai (skip Pexels)
+  if (!isPresenter && scene.visualType === "concrete") {
     const query = pexelsKeyword(scene.visualHint);
     const pexels = await searchPexelsVideo(query, targetSec);
     if (pexels) {
@@ -255,8 +267,8 @@ async function processScene(
 
   const tmpImg = outputPath + ".raw.jpg";
   try {
-    const prompt = buildFalPrompt(scene.visualHint);
-    log.info(`Scene ${scene.id}: fal.ai Flux schnell`, { prompt: prompt.slice(0, 100) + "..." });
+    const prompt = buildFalPrompt(scene.visualHint, isPresenter);
+    log.info(`Scene ${scene.id}: fal.ai Flux schnell${isPresenter ? " (presenter)" : ""}`, { prompt: prompt.slice(0, 100) + "..." });
     const url = await generateFalImage(prompt);
     await downloadTo(url, tmpImg);
     await kenBurnsImage(tmpImg, outputPath, targetSec);
@@ -278,9 +290,14 @@ export async function generateSceneVisual(
   const allScenes: Scene[] = [...script.hook, ...script.body, ...script.cta];
   const scene = allScenes.find((s) => s.id === sceneId);
   if (!scene) throw new Error(`Scene ${sceneId} not found`);
+  const presenterIds = new Set([
+    ...script.hook.map((s) => s.id),
+    ...script.cta.map((s) => s.id),
+  ]);
+  const isPresenter = presenterIds.has(scene.id);
   const targetSec = sceneDurationSec(scene, timings);
   const outputPath = path.join(paths.assetsDir, `scene-${String(scene.id).padStart(3, "0")}.mp4`);
-  return processScene(scene, targetSec, outputPath);
+  return processScene(scene, targetSec, outputPath, isPresenter);
 }
 
 export interface VisualsResult {
@@ -300,6 +317,10 @@ export async function generateVisuals(month: string): Promise<VisualsResult> {
     ? (await readJson<{ scenes: SceneTiming[] }>(paths.sceneTimings)).scenes
     : [];
   const allScenes: Scene[] = [...script.hook, ...script.body, ...script.cta];
+  const presenterIds = new Set([
+    ...script.hook.map((s) => s.id),
+    ...script.cta.map((s) => s.id),
+  ]);
 
   await ensureDir(paths.assetsDir);
 
@@ -307,20 +328,23 @@ export async function generateVisuals(month: string): Promise<VisualsResult> {
     scenes: allScenes.length,
     concrete: allScenes.filter((s) => s.visualType === "concrete").length,
     abstract: allScenes.filter((s) => s.visualType === "abstract").length,
+    presenter: presenterIds.size,
   });
 
   const results = await parallelMap(
     allScenes,
     PIPELINE.concurrency.visualsParallel,
     async (scene) => {
+      const isPresenter = presenterIds.has(scene.id);
       const targetSec = sceneDurationSec(scene, timings);
       const outputPath = path.join(
         paths.assetsDir,
         `scene-${String(scene.id).padStart(3, "0")}.mp4`,
       );
-      const out = await processScene(scene, targetSec, outputPath);
+      const out = await processScene(scene, targetSec, outputPath, isPresenter);
       log.info(`Scene ${scene.id}/${allScenes.length} visual ready`, {
         source: out.source,
+        presenter: isPresenter,
         targetSec: targetSec.toFixed(1),
       });
       return out;

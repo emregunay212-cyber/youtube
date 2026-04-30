@@ -72,15 +72,20 @@ const EnvSchema = z.object({
   YOUTUBE_CHANNEL_ID: z.string().optional().default(""),
 
   PEXELS_API_KEY: z.string().min(1, "PEXELS_API_KEY required"),
-  PIXABAY_API_KEY: z.string().min(1, "PIXABAY_API_KEY required"),
+  PIXABAY_API_KEY: z.string().optional().default(""),
 
-  REDDIT_CLIENT_ID: z.string().min(1, "REDDIT_CLIENT_ID required"),
-  REDDIT_CLIENT_SECRET: z.string().min(1, "REDDIT_CLIENT_SECRET required"),
-  REDDIT_USERNAME: z.string().min(1, "REDDIT_USERNAME required"),
-  REDDIT_PASSWORD: z.string().min(1, "REDDIT_PASSWORD required"),
+  REDDIT_CLIENT_ID: z.string().optional().default(""),
+  REDDIT_CLIENT_SECRET: z.string().optional().default(""),
+  REDDIT_USERNAME: z.string().optional().default(""),
+  REDDIT_PASSWORD: z.string().optional().default(""),
   REDDIT_USER_AGENT: z.string().default("youtube-content-pipeline/0.1"),
 
   FAL_KEY: z.string().min(1, "FAL_KEY required"),
+
+  RUNPOD_API_KEY: z.string().optional().default(""),
+  RUNPOD_SADTALKER_ENDPOINT_ID: z.string().optional().default(""),
+  ACEMUSIC_API_KEY: z.string().optional().default(""),
+  RUNPOD_ACESTEP_ENDPOINT_ID: z.string().optional().default(""),
 
   PIPELINE_MONTH: z.string().optional().default(""),
   LOG_LEVEL: z.enum(["debug", "info", "warn", "error"]).default("info"),

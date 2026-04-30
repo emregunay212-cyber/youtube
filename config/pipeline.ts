@@ -74,6 +74,31 @@ export const PIPELINE = {
     shortsScheduleHoursOffset: [24, 48, 72],
   },
 
+  intro: {
+    durationSec: 4,
+    backgroundColor: "0x0a0a14",
+    accentColor: "0xf5b042",
+    titleColor: "0xffffff",
+    subtitleColor: "0xb8c2cc",
+    channelName: "DİJİ ZİHİN",
+    channelTagline: "Bilim ve teknoloji hikayeleri",
+    hookText: "Diji Zihin.",
+  },
+
+  outro: {
+    durationSec: 6,
+    backgroundColor: "0x0a0a14",
+    accentColor: "0xf5b042",
+    channelName: "DİJİ ZİHİN",
+    questionText: "ABONE OLMAYI UNUTMA",
+    subQuestionText: "Bildirimleri aç · Yorumlarda buluşalım",
+    ctaLine: "Diji Zihin · Bilim ve teknoloji hikayeleri",
+  },
+
+  audioBuffer: {
+    tailSilenceSec: 1.5,
+  },
+
   concurrency: {
     visualsParallel: 3,
     ttsParallel: 2,
