@@ -1,40 +1,46 @@
 {
-  "generatedAt": "2026-04-27T08:58:00.000Z",
+  "generatedAt": "2026-04-29T00:35:00.000Z",
   "month": "2026-04",
   "primary": {
     "rank": 1,
-    "title": "Yapay Zeka Üretim Veritabanını Sildi: AI Ajanlarına Güvenin Sınırı Nerede?",
-    "angle": "Bir AI agent'ın canlı production database'i sildiği viral olay üzerinden, yapay zeka ajanlarının (Claude, GPT-based agents, Cursor, Replit gibi) gerçek dünyada hangi tehlikeleri taşıdığını, hangi koruma mekanizmalarını uygulamamız gerektiğini ve bu olayın AI hype'ı için ne anlama geldiğini Türk geliştirici ve teknoloji okuyucusuna net bir şekilde anlatıyoruz.",
-    "reasoning": "Bu konu üç güçlü sinyal taşıyor: (1) Hacker News'da 661 oy ve 811 yorumla 24 saat içinde viral oldu (hn-47911524) — anlatım gücü ve sosyal kanıt yüksek. (2) ArXiv'da aynı hafta yayımlanan iki paper (arxiv-2604.22750v1 'AI Agents Token Consumption' ve diğer agent-related çalışmalar) konunun akademik/teknik gündemde de aktif olduğunu doğruluyor. (3) Türk teknoloji izleyicisi için 'AI ajanlarına ne kadar yetki vermeliyim?' sorusu hem somut hem öğretici — 10 dakikalık anlatımda hikaye + çıkarım + pratik öneri yapısı kurulabilir. Konu son 3 gün içinde patladığı için başka Türk kanalları henüz işlememiş olma ihtimali yüksek; clickbait olmadan 'kanıt-temelli' bir başlıkla rakipsiz yer tutabiliriz.",
+    "title": "Theranos: 9 Milyar Dolarlık Kan Testi Yalanı — Holmes Silikon Vadisi'ni Nasıl Kandırdı?",
+    "angle": "Stanford'dan birinci yılında ayrılan 19 yaşındaki bir kadın, 'tek damla kanla 200 test' vaadiyle 9 milyar dolarlık şirket kuruyor. Cihazlar çalışmıyor. Kissinger, Mattis, Murdoch yatırım yapıyor; Walgreens 41 mağazaya kuruyor. 12 yıl boyunca kimse fark etmiyor — WSJ muhabiri Carreyrou ortaya çıkarana kadar. Holmes bugün Texas'ta federal hapishanede.",
+    "reasoning": "Üç ana evergreen sebep: (1) Hikaye kapanmış ama canlı: Holmes Mayıs 2023'te hapse girdi, 2032'ye kadar orada — yıllarca ilgi sürer. (2) Türkçe rekabet düşük: TR YouTube'da derli toplu 8-12 dk Theranos anlatımı 2-3 tane var, derinlik için boşluk. (3) Görsel arşiv pipeline'a ideal: Holmes Vogue çekimleri, Edison demoları, kara süveter, Forbes kapağı, mahkeme çıkışları — LTX2 stylized recreations için bol referans. (4) Audience-building: Drama+scam+tech karışımı yüksek izlenme — TR'de WeWork, FTX tarzı tech-fraud anlatımları tutuyor. (5) 'fake it till you make it' kültürünün bedeli — startup sahnesinde tanıdık tema.",
     "sourceTrendIds": [
-      "hn-47911524",
-      "arxiv-2604.22750v1"
+      "manual-theranos-wsj-carreyrou-2015",
+      "manual-theranos-bad-blood-book-2018",
+      "manual-theranos-sec-charges-2018",
+      "manual-theranos-holmes-conviction-2022",
+      "manual-theranos-holmes-sentence-2022",
+      "manual-theranos-the-inventor-hbo-2019",
+      "manual-theranos-the-dropout-hulu-2022",
+      "manual-theranos-forbes-cover-2014"
     ],
     "estimatedSearchInterest": "high",
-    "novelty": "fresh"
+    "novelty": "evergreen"
   },
   "alternatives": [
     {
       "rank": 2,
-      "title": "GPT-5.5 Çıktı: OpenAI'ın 'Süper Uygulama' Hedefi Sizin İçin Ne Anlama Geliyor?",
-      "angle": "OpenAI'ın yeni duyurduğu GPT-5.5 modelinin gerçek farkları, 'süper uygulama' stratejisinin Türk kullanıcılar için ne demek olduğu ve günlük kullanımda neyin değişeceği hakkında kanıt-temelli analiz.",
-      "reasoning": "Webrazzi'nin 24 Nisan tarihli GPT-5.5 duyurusu (webrazzi-openai-dan-sirketi-super-uygulama-hedefine-yaklastiran-yeni-model-gpt-5-5) Türkçe kaynaklı, son 3 gün içinde, 'GPT', 'yapay zeka' ve 'AI' anahtar kelimelerinin üçüyle de eşleşiyor. Türk kullanıcının arama ilgisi maksimum (her major OpenAI sürümü TR aramada zirveye çıkıyor). Eksisi: model launch videoları rekabetçi bir niche, ilk 24-48 saatte birçok kanal benzer içerik üretmiş olur — bu yüzden alternatif olarak listeledim, primary için viralliği ve özgünlüğü yüksek olan agent hikayesini tercih ettim.",
+      "title": "Antikythera Mekanizması: 2000 Yıllık Bir Bilgisayar Nasıl Yapıldı?",
+      "angle": "1901'de Yunan dalgıç ekip, Antikythera adasında batık Roma gemisinden bronz bir nesne çıkardı. 100 yıl ne olduğu anlaşılamadı. 2006'da X-ray içini okudu: M.Ö. 100'de yapılmış astronomik hesap makinesi — gezegen konumlarını, ay tutulmasını, Olimpiyat takvimini hesaplıyor. Antik Yunanlar bunu nasıl yaptı? Teknoloji 1500 yıl neden kayboldu?",
+      "reasoning": "Klasik 'mystery + tech' formatı, evergreen. Görsel: bronz mekanizma, X-ray görüntüleri, 3D rekonstrüksiyon (LTX2 ile soyut metalik dişli görselleri üretebiliriz). TR'de detaylı anlatım yok. Ama: Theranos'a göre dramatik gerilim daha az; audience-building için Theranos daha güçlü.",
       "sourceTrendIds": [
-        "webrazzi-openai-dan-sirketi-super-uygulama-hedefine-yaklastiran-yeni-model-gpt-5-5"
+        "manual-theranos-wsj-carreyrou-2015"
       ],
-      "estimatedSearchInterest": "high",
-      "novelty": "fresh"
+      "estimatedSearchInterest": "medium",
+      "novelty": "evergreen"
     },
     {
       "rank": 3,
-      "title": "Yapay Zeka Ajanları Paranızı Nasıl Harcıyor? Token Maliyetinin Karanlık Tarafı",
-      "angle": "ArXiv'da yayımlanan ilk sistematik araştırma üzerinden, AI ajanlarının kodlama görevlerinde token'ı nereye harcadığını, hangi modellerin daha verimli olduğunu ve geliştiricilerin görev başlamadan maliyeti nasıl tahmin edebileceğini somut örneklerle anlatıyoruz.",
-      "reasoning": "ArXiv 2604.22750 paper'ı 24 Nisan'da yayımlandı ve agent token consumption üzerine ilk sistematik çalışma. Türk geliştirici izleyicisi için pratik (Cursor, Claude Code, agent SDK kullanan herkesi ilgilendiriyor) ve kanıt-temelli (peer-reviewed paper kaynaklı). Daha dar bir kitleye hitap ettiği için arama hacmi 'medium', ama yüksek dönüşüm/abone potansiyeli var. Primary konunun teknik tamamlayıcısı olabilecek nitelikte.",
+      "title": "Steve Jobs Apple'dan Nasıl Kovuldu, 12 Yıl Sonra Nasıl Geri Döndü?",
+      "angle": "1985'te Steve Jobs, kurduğu şirketten kovuldu — kendi seçtiği CEO John Sculley tarafından. NeXT ve Pixar yıllarında Apple iflasın eşiğine geldi. 1996'da NeXT'i 429 milyon dolara satın aldı. 1997'de iCEO oldu. 2007'de iPhone'u tanıttı. Bu video 12 yıllık 'sürgün' dönemi ve geri dönüş hikayesini anlatıyor.",
+      "reasoning": "Tech storytelling klasiği, evergreen. TR rekabeti orta — kısa anlatımlar var ama 10 dk derinliğinde detaylı yok. Ama: hikaye fazla ABD-merkezli hissedilebilir. Theranos drama açısından daha çekici (kötü adam vs. iyi adam vs. bilinmeyen sonuç).",
       "sourceTrendIds": [
-        "arxiv-2604.22750v1"
+        "manual-theranos-wsj-carreyrou-2015"
       ],
-      "estimatedSearchInterest": "medium",
-      "novelty": "fresh"
+      "estimatedSearchInterest": "high",
+      "novelty": "evergreen"
     }
   ]
 }

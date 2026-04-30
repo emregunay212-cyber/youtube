@@ -1,0 +1,26 @@
+{
+  "generatedAt": "2026-04-29T00:55:00.000Z",
+  "segments": [
+    {
+      "index": 1,
+      "startSceneId": 1,
+      "endSceneId": 4,
+      "hookOverlay": "9 milyar dolarlık yalan",
+      "estimatedDurationSec": 42
+    },
+    {
+      "index": 2,
+      "startSceneId": 17,
+      "endSceneId": 19,
+      "hookOverlay": "WSJ ifsaati",
+      "estimatedDurationSec": 42
+    },
+    {
+      "index": 3,
+      "startSceneId": 29,
+      "endSceneId": 31,
+      "hookOverlay": "11 yil hapis",
+      "estimatedDurationSec": 44
+    }
+  ]
+}

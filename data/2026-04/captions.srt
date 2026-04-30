@@ -1,0 +1,820 @@
+1
+00:00:00,000 --> 00:00:02,200
+Yirmi yaşındaki bir kız Stanford'dan ayrıldı.
+
+2
+00:00:02,200 --> 00:00:06,960
+On bir yıl sonra Forbes kapağında en genç self-made kadın milyarder yazdı.
+
+3
+00:00:06,960 --> 00:00:09,360
+Şirketi dokuz milyar dolar değer biçildi.
+
+4
+00:00:09,360 --> 00:00:13,320
+Ama küçük bir sorun vardı, ürünleri çalışmıyordu, hiç çalışmamıştı.
+
+5
+00:00:13,320 --> 00:00:17,840
+Diji Zihin'e hoş geldin, bugün Silikon Vadisi'nin en büyük yalanını anlatıyorum.
+
+6
+00:00:17,840 --> 00:00:22,480
+Bir şirket nasıl 12 yıl boyunca kimse fark etmeden milyarlarca dolar topladı
+
+7
+00:00:22,480 --> 00:00:25,040
+ve neden bugün kurucusu hala hapiste.
+
+8
+00:00:25,040 --> 00:00:27,200
+Ama önce 19 yaşındaki bu kıza bakalım.
+
+9
+00:00:27,200 --> 00:00:29,920
+Çünkü her büyük yalanın bir başlangıç noktası vardır.
+
+10
+00:00:30,000 --> 00:00:31,000
+2003 yılı.
+
+11
+00:00:31,000 --> 00:00:35,160
+Elizabeth Holmes, Stanford Üniversitesi Kimya Mühendisliği 1.
+
+12
+00:00:35,160 --> 00:00:36,160
+sınıf öğrencisi.
+
+13
+00:00:36,160 --> 00:00:37,160
+19 yaşında.
+
+14
+00:00:37,160 --> 00:00:41,560
+Profesörü Channing-Robertson onu gördüğüm en zeki öğrencilerden biri diye tanımlıyor.
+
+15
+00:00:41,560 --> 00:00:43,560
+Holmes bir fikir geliştiriyor.
+
+16
+00:00:43,560 --> 00:00:47,960
+Tek bir damla kanla, parmaktan alınan minik bir damlayla iki yüze yakın farklı tıbbi
+
+17
+00:00:47,960 --> 00:00:49,760
+test yapabilen küçük bir cihaz.
+
+18
+00:00:49,760 --> 00:00:54,160
+Doktorlar büyük tüplerle litrelerce kan almak zorunda kalmayacak, hastaneler lapları
+
+19
+00:00:54,160 --> 00:00:59,280
+boşaltacak, sigortalar testleri ucuza yaptıracak, hastalar evde test yapabilecek.
+
+20
+00:00:59,280 --> 00:01:02,960
+Bu fikir gerçek olsaydı, modern tıpta gerçek bir devrim olurdu.
+
+21
+00:01:02,960 --> 00:01:04,600
+Ama bu kelimenin altını çiz.
+
+22
+00:01:04,600 --> 00:01:05,600
+Gerçek olsaydı.
+
+23
+00:01:05,600 --> 00:01:10,360
+Holmes okulu bırakıyor, teranosu kuruyor, adı Yunanca tedavi etmek anlamına geliyor.
+
+24
+00:01:10,360 --> 00:01:15,080
+İlk yatırımcı baba dostu, tanınmış girişim sermayeleri Tim Draper, 700 milyon dolar
+
+25
+00:01:15,080 --> 00:01:16,080
+topluyor.
+
+26
+00:01:16,080 --> 00:01:17,960
+Daha çalışan bir tek prototip yokken.
+
+27
+00:01:17,960 --> 00:01:23,360
+Ama Holmes sadece para toplamıyor, yönetim kuruluna isim topluyor ve toplanan isimler
+
+28
+00:01:23,360 --> 00:01:24,360
+şaşırtıcı.
+
+29
+00:01:24,360 --> 00:01:30,280
+Henry Kissinger eski Dışişleri Bakanı, James Mattis eski Savunma Bakanı, sonradan Trump'ın
+
+30
+00:01:30,280 --> 00:01:35,760
+pentagon şefi olacak, George Shultz bir başka eski Dışişleri Bakanı, Reagan döneminin
+
+31
+00:01:35,760 --> 00:01:41,680
+en güçlü isimlerinden, William Perry eski Savunma Bakanı, Sam Nunn 30 yıllık senatör,
+
+32
+00:01:41,680 --> 00:01:47,600
+Rupert Murdoch yatırım yapıyor, 125 milyon dolar, Walmart varisleri Walton ailesi, eğitim
+
+33
+00:01:47,600 --> 00:01:52,240
+bakanı Betsy Davos'un ailesi, media ailesi Cox hepsi yatırım yapıyor.
+
+34
+00:01:52,240 --> 00:01:57,360
+Dikkat et, bu isimlerin hiçbiri tıp ya da kimya geçmiş olan kişiler değil, politikacılar
+
+35
+00:01:57,360 --> 00:01:58,880
+ve iş insanları.
+
+36
+00:01:58,880 --> 00:02:01,120
+Ama Holmes'un karizması işe yarıyor.
+
+37
+00:02:01,120 --> 00:02:07,080
+Holmes, Steve Jobs hayranı, sadece hayranı değil, taklitçisi, aynı kara süreter,
+
+38
+00:02:07,080 --> 00:02:11,280
+aynı düşük tonlu, derin ses, sonradan eski çalışanlar anlatacak.
+
+39
+00:02:11,280 --> 00:02:15,920
+Holmes'un gerçek sesi, tiz ve yumuşak, bu derin baskı sesi, sahte.
+
+40
+00:02:15,920 --> 00:02:19,680
+Yıllardır şirket içinde bile bu sesle konuşuyor, bir karakter oynuyor.
+
+41
+00:02:19,760 --> 00:02:23,480
+2013 yılı, Terranos Walgreens ile büyük bir anlaşma duyuruyor.
+
+42
+00:02:23,480 --> 00:02:29,080
+41 Walgreens mağazasında, müşteriler eczaneye gelip parmaklarını delip Terranos'un cihazlarıyla
+
+43
+00:02:29,080 --> 00:02:32,120
+test yaptırabilecek, saatler içinde sonuç alacaklar.
+
+44
+00:02:32,120 --> 00:02:38,480
+2014, Forbes Holmes'u kapağa koyuyor, en genç self-made kadın milyarder, 30 yaşında
+
+45
+00:02:38,480 --> 00:02:41,000
+4.5 milyar dolar net servet.
+
+46
+00:02:41,000 --> 00:02:46,080
+New York Times kapsamlı bir profil yazıyor, Time onu 100 etkili insandan biri seçiyor,
+
+47
+00:02:46,080 --> 00:02:48,080
+Obama Beyaz saraya davet ediyor.
+
+48
+00:02:48,120 --> 00:02:50,880
+Holmes bir anda Silikon Vadisi'nin en parlak yıldızı.
+
+49
+00:02:50,880 --> 00:02:53,720
+Şirketin değeri, zirvede 9 milyar dolar.
+
+50
+00:02:53,720 --> 00:02:56,600
+Holmes'un kendi payı 4.5 milyar dolar.
+
+51
+00:02:56,600 --> 00:03:00,600
+20.000 Terranos cihazı, dünyanın dört bir yanına yayılmaya hazırlanıyor.
+
+52
+00:03:00,600 --> 00:03:05,600
+Şimdi gel ve dikkatli dinle, çünkü bu noktaya kadar olan her şey bir yalan üzerine kuruluydu.
+
+53
+00:03:05,600 --> 00:03:10,320
+Terranos'un cihazı, Edison adıyla bilinen küçük kara kutu, çoğu testi yapamıyordu.
+
+54
+00:03:10,320 --> 00:03:12,960
+Yapabildiği testlerin sonuçları güvenilir değildi.
+
+55
+00:03:12,960 --> 00:03:17,800
+Sebeb teknik, parmaktan alınan kanın hacmi çok az, içindeki birçok molekül cihazın
+
+56
+00:03:17,840 --> 00:03:19,840
+algılayamayacağı kadar düşük yoğunlukta.
+
+57
+00:03:19,840 --> 00:03:25,240
+Terranos demolarda bile gizlice arka odada Siemens'in büyük lab makinelerini kullanıyordu.
+
+58
+00:03:25,240 --> 00:03:29,400
+Yatırımcılara gösterilen sonuçlar Edison'dan değil, rakip cihazlardan geliyordu.
+
+59
+00:03:29,400 --> 00:03:32,400
+Şirket içeride bunu biliyordu, Holmes biliyordu.
+
+60
+00:03:32,400 --> 00:03:35,800
+Terranos lab personeli yıllar içinde rahatsızlığını dile getiriyor.
+
+61
+00:03:35,800 --> 00:03:39,640
+Sonuçlar Walgreens hastalarına gönderiliyor ve hatalı sonuçlar geliyor.
+
+62
+00:03:39,640 --> 00:03:42,440
+Bir kadına hamile olduğu söyleniyor, değil.
+
+63
+00:03:42,440 --> 00:03:45,000
+Bir adama hayvi pozitif çıkıyor, değil.
+
+64
+00:03:45,000 --> 00:03:47,840
+Sahte kanser alemleri, sahte normal sonuçlar.
+
+65
+00:03:47,840 --> 00:03:50,840
+İçeriden ilk kırılma 2014 yılında geliyor.
+
+66
+00:03:50,840 --> 00:03:53,840
+22 yaşındaki Tyler Schultz Terranos'ta çalışıyor.
+
+67
+00:03:53,840 --> 00:03:57,840
+Tyler'ın dedesi, yönetim kurulunda olan ünlü George Schultz.
+
+68
+00:03:57,840 --> 00:04:01,440
+Tyler labda Edison cihazının çalışmadığını gözleriyle görüyor.
+
+69
+00:04:01,440 --> 00:04:06,440
+Sonuçlar manipüle ediliyor, şirket düzenleyici testlerden geçmek için verileri kalibre ediyor.
+
+70
+00:04:06,440 --> 00:04:09,080
+Tyler dedesine söylüyor, dede inanmıyor.
+
+71
+00:04:09,080 --> 00:04:11,080
+Holmes harika bir kız diyor.
+
+72
+00:04:11,080 --> 00:04:12,600
+Sen yanlış anlamışsın.
+
+73
+00:04:12,680 --> 00:04:15,680
+Tyler şirketten istifa ediyor ve geri çekilmiyor.
+
+74
+00:04:15,680 --> 00:04:21,280
+New York'ta düzenleyici kurum olan eyalet, sağlık idaresine isimsiz bir mektup yazıyor.
+
+75
+00:04:21,280 --> 00:04:25,480
+İşte burada hikayeye Wall Street Journal muhabiri John Carreiro giriyor.
+
+76
+00:04:25,480 --> 00:04:29,680
+Carreiro daha önce 2 Pulitzer ödülü kazanmış araştırmacı bir gazeteci.
+
+77
+00:04:29,680 --> 00:04:32,880
+Bir patolog ona blog yazısında okuduktan sonra yazıyor.
+
+78
+00:04:32,880 --> 00:04:34,880
+Terranos'un cihazları çalışmıyor.
+
+79
+00:04:34,880 --> 00:04:36,160
+Bunu kanıtlayabilirim.
+
+80
+00:04:36,160 --> 00:04:37,960
+Carreiro araştırmaya başlıyor.
+
+81
+00:04:37,960 --> 00:04:39,680
+Terranos savunmaya geçiyor.
+
+82
+00:04:39,720 --> 00:04:42,720
+Holmes Carreiro'yu durdurmak için her şeyi yapıyor.
+
+83
+00:04:42,720 --> 00:04:46,240
+WS'in sahibi Rupert Murdoch'a şahsen yazıyor.
+
+84
+00:04:46,240 --> 00:04:50,200
+Murdoch zaten Terranos'a 125 milyon dolar yatırmış.
+
+85
+00:04:50,200 --> 00:04:52,800
+Holmes, bu yazıyı yayınlamayın diyor.
+
+86
+00:04:52,800 --> 00:04:56,200
+Murdoch, editorial bağımsızlığa karışmam diye cevap veriyor.
+
+87
+00:04:56,200 --> 00:04:57,400
+Olağan dışı bir an.
+
+88
+00:04:57,400 --> 00:04:59,720
+Terranos kaynaklarını tek tek tehdit ediyor.
+
+89
+00:04:59,720 --> 00:05:02,000
+Tyler Schultz'a casuslar takılıyor.
+
+90
+00:05:02,000 --> 00:05:06,320
+Tyler ve eski meslektaşları savcılara gizli şekilde ifade vermek zorunda kalıyorlar.
+
+91
+00:05:06,320 --> 00:05:09,520
+Ailesi 100 binlerce dolar avukat parası harcıyor.
+
+92
+00:05:09,560 --> 00:05:11,200
+Holmes savaş ilan etmiş.
+
+93
+00:05:11,200 --> 00:05:12,760
+Ama Carreiro pes etmiyor.
+
+94
+00:05:12,760 --> 00:05:14,240
+15 ay süren araştırma.
+
+95
+00:05:14,240 --> 00:05:15,480
+Düzünelerce kaynak.
+
+96
+00:05:15,480 --> 00:05:16,480
+Belgeler.
+
+97
+00:05:16,480 --> 00:05:17,800
+İçeriden tanıklıklar.
+
+98
+00:05:17,800 --> 00:05:20,160
+Her cümle avukatlarla kontrol ediliyor.
+
+99
+00:05:20,160 --> 00:05:22,240
+15 Ekim 2015
+
+100
+00:05:22,240 --> 00:05:24,320
+Wall Street Journal manşeti çıkıyor.
+
+101
+00:05:24,320 --> 00:05:28,680
+Hot startup Terranos has struggled with its blood test technology.
+
+102
+00:05:28,680 --> 00:05:29,680
+Çevirisi.
+
+103
+00:05:29,680 --> 00:05:33,400
+Sıcak girişim, Terranos kan testi teknolojisinde sorun yaşıyor.
+
+104
+00:05:33,400 --> 00:05:35,600
+Cümleler nazik, anlam yıkıcı.
+
+105
+00:05:35,600 --> 00:05:37,200
+Terranos cihazları çalışmıyor.
+
+106
+00:05:37,200 --> 00:05:38,480
+Yıllardır çalışmıyordu.
+
+107
+00:05:38,520 --> 00:05:40,120
+Yatırımcılar dolandırıldı.
+
+108
+00:05:40,120 --> 00:05:41,920
+Hastalar yanlış sonuç aldı.
+
+109
+00:05:41,920 --> 00:05:44,520
+Yazı çıktıktan iki gün sonra Holmes televizyona çıkıyor.
+
+110
+00:05:44,520 --> 00:05:47,760
+CNBC'nin Mad Money programında Jim Cramer'a konuşuyor.
+
+111
+00:05:47,760 --> 00:05:49,000
+Bu yazı yanlış diyor.
+
+112
+00:05:49,000 --> 00:05:50,160
+Biz iyi adamlarız.
+
+113
+00:05:50,160 --> 00:05:53,800
+Bütün yenilikçi şirketler önce eleştirilir, sonra kabul edilir.
+
+114
+00:05:53,800 --> 00:05:56,960
+Cümle Steve Jobs'un meşhur konuşmasından çalıntı.
+
+115
+00:05:56,960 --> 00:05:58,720
+Sesinde garip bir derinlik var.
+
+116
+00:05:58,720 --> 00:06:00,520
+O baskı sesle inkar ediyor.
+
+117
+00:06:00,520 --> 00:06:02,920
+Federal sağlık denetçileri devreye giriyor.
+
+118
+00:06:02,920 --> 00:06:06,480
+CMS, Medicare ve Medicaid hizmetleri merkezi.
+
+119
+00:06:06,520 --> 00:06:08,560
+Terranos'un California labını denetliyor.
+
+120
+00:06:08,560 --> 00:06:09,840
+Sonuçlar yıkıcı.
+
+121
+00:06:09,840 --> 00:06:13,760
+Edison cihazları bilimsel kabul edilebilir bir kalitede sonuç vermiyor.
+
+122
+00:06:13,760 --> 00:06:16,240
+Lab'ın iki yıllık ruhsatı iptal ediliyor.
+
+123
+00:06:16,240 --> 00:06:19,360
+Holmes'un kendisine 10 yıl boyunca lab işletmek yasaklanıyor.
+
+124
+00:06:19,360 --> 00:06:21,120
+Walgreens kontratı yırtıyor.
+
+125
+00:06:21,120 --> 00:06:23,640
+41 mağazadaki Terranos lab'leri kapanıyor.
+
+126
+00:06:23,640 --> 00:06:25,280
+Yatırımcılar dava açıyor.
+
+127
+00:06:25,280 --> 00:06:29,640
+Walmart varisleri, Walton ailesi 100 milyonlarca dolar dava ediyor.
+
+128
+00:06:29,640 --> 00:06:33,440
+Murdoch, 125 milyon dolarlık yatırımını 1 dolara yazıyor.
+
+129
+00:06:33,440 --> 00:06:34,640
+Sembolik kayıp.
+
+130
+00:06:34,680 --> 00:06:41,000
+2018 Mart ayında ABD Menkul Kıymetler Komisyonu, SES'i resmi suçlamayı açıyor.
+
+131
+00:06:41,000 --> 00:06:42,680
+Masif bir sahtekarlık.
+
+132
+00:06:42,680 --> 00:06:44,240
+Holmes anlaşma yapıyor.
+
+133
+00:06:44,240 --> 00:06:46,120
+500 bin dolar para cezası.
+
+134
+00:06:46,120 --> 00:06:48,320
+Şirketteki oy hakkını kaybediyor.
+
+135
+00:06:48,320 --> 00:06:51,680
+10 yıl boyunca halkı açık şirket yöneticisi olamayacak.
+
+136
+00:06:51,680 --> 00:06:55,040
+Eylül 2018'de Terranos resmen kapanıyor.
+
+137
+00:06:55,040 --> 00:06:58,640
+Bir zamanlar 9 milyar dolar değer biçilen şirket sıfır.
+
+138
+00:06:58,640 --> 00:07:02,160
+Cihazlardan 200 binin üzerinde test yapıldığı tahmin ediliyor.
+
+139
+00:07:02,160 --> 00:07:03,800
+Ama gerçek hasar bilinmiyor.
+
+140
+00:07:03,840 --> 00:07:05,440
+Kaç hatalı sonuç gönderildi?
+
+141
+00:07:05,440 --> 00:07:07,040
+Kaç yanlış teşhis kondu?
+
+142
+00:07:07,040 --> 00:07:08,400
+Kaç insan zarar gördü?
+
+143
+00:07:08,400 --> 00:07:09,400
+Cevap kayıp.
+
+144
+00:07:09,400 --> 00:07:10,920
+Ama hikaye burada bitmiyor.
+
+145
+00:07:10,920 --> 00:07:14,120
+ABD Adalet Bakanlığı ayrı bir cezayı dava açıyor.
+
+146
+00:07:14,120 --> 00:07:16,640
+Holmes ve Terranos eski operasyon başkanı.
+
+147
+00:07:16,640 --> 00:07:19,840
+Aynı zamanda Holmes'un eski sevgilisi Sunny Balvani için.
+
+148
+00:07:19,840 --> 00:07:21,640
+11 madde dolandırıcılık.
+
+149
+00:07:21,640 --> 00:07:23,240
+Mahkeme süreci uzun sürüyor.
+
+150
+00:07:23,240 --> 00:07:25,760
+Holmes savunması ilginç bir taktik deniyor.
+
+151
+00:07:25,760 --> 00:07:28,560
+Sunny Balvani beni psikolojik olarak istismar etti.
+
+152
+00:07:28,560 --> 00:07:30,600
+Onun yönlendirmesiyle hareket ettim.
+
+153
+00:07:30,600 --> 00:07:31,720
+İki kez hamile.
+
+154
+00:07:31,760 --> 00:07:34,000
+İlk çocuğunu mahkeme öncesi doğuruyor.
+
+155
+00:07:34,000 --> 00:07:37,000
+İkinci çocuğunu ceza kararından kısa süre önce doğuruyor.
+
+156
+00:07:37,000 --> 00:07:39,000
+3 Ocak 2022.
+
+157
+00:07:40,000 --> 00:07:43,240
+Federal jüri 50 saat müzakere sonrası kararını veriyor.
+
+158
+00:07:43,240 --> 00:07:44,600
+Elizabeth Holmes.
+
+159
+00:07:44,600 --> 00:07:47,400
+4 maddede yatırımcıları kandırmaktan suçlu bulundu.
+
+160
+00:07:47,400 --> 00:07:50,440
+Hastalara yanlış teşhis konulmasından sorumlu tutulmadı.
+
+161
+00:07:50,440 --> 00:07:52,800
+18 Kasım 2022.
+
+162
+00:07:52,800 --> 00:07:55,240
+Yargıç Edward Davila cezayı açıklıyor.
+
+163
+00:07:55,240 --> 00:07:57,000
+11 yıl 3 ay hapis.
+
+164
+00:07:57,000 --> 00:08:00,360
+452 milyon dolar yatırımcı zararının iadesi.
+
+165
+00:08:00,440 --> 00:08:02,440
+Holmes karara karşı temyize gidiyor.
+
+166
+00:08:02,440 --> 00:08:03,440
+Reddediliyor.
+
+167
+00:08:03,440 --> 00:08:05,440
+30 Mayıs 2023.
+
+168
+00:08:05,440 --> 00:08:09,840
+Holmes Texas eyaletinde Brian'daki Federal hapishane kampusuna giriyor.
+
+169
+00:08:09,840 --> 00:08:13,000
+Bugün, bu videoyu izlediğin saniye hala orada.
+
+170
+00:08:13,000 --> 00:08:15,240
+2032 yılına kadar kalacak.
+
+171
+00:08:15,240 --> 00:08:17,440
+Sunny Balvani daha uzun ceza aldı.
+
+172
+00:08:17,440 --> 00:08:18,760
+12 yıl 11 ay.
+
+173
+00:08:18,760 --> 00:08:20,640
+Şimdi sana bir soru sormak istiyorum.
+
+174
+00:08:20,640 --> 00:08:23,160
+Holmes neden bu kadar uzun süre kandırabildi?
+
+175
+00:08:23,160 --> 00:08:24,440
+Cevap basit değil.
+
+176
+00:08:24,440 --> 00:08:25,800
+Holmes karizmatik.
+
+177
+00:08:25,880 --> 00:08:27,360
+Hikayesi ilham verici.
+
+178
+00:08:27,360 --> 00:08:28,440
+Kadın girişimci.
+
+179
+00:08:28,440 --> 00:08:30,720
+Sağlığı demokratikleştiren bir devrim.
+
+180
+00:08:30,720 --> 00:08:32,400
+Yatırımcılar bunu istiyordu.
+
+181
+00:08:32,400 --> 00:08:34,400
+İnandılar çünkü inanmak istiyorlardı.
+
+182
+00:08:34,400 --> 00:08:36,680
+Silicon Vadisi'nde bir slogan vardır.
+
+183
+00:08:36,680 --> 00:08:38,160
+Fake it till you make it.
+
+184
+00:08:38,160 --> 00:08:39,720
+Yapana kadar gibi yap.
+
+185
+00:08:39,720 --> 00:08:41,440
+Bu zihniyet bazen işe yarar.
+
+186
+00:08:41,440 --> 00:08:42,920
+Bir kurucu güveni gösterir.
+
+187
+00:08:42,920 --> 00:08:43,960
+Müşteriyi çeker.
+
+188
+00:08:43,960 --> 00:08:44,960
+Ürünü tamamlar.
+
+189
+00:08:44,960 --> 00:08:46,200
+Ama bir sınır vardır.
+
+190
+00:08:46,200 --> 00:08:48,920
+O sınır insanların hayatlarıyla kesiştiği an.
+
+191
+00:08:48,920 --> 00:08:51,160
+Terranos o sınırı yıllarca açtı.
+
+192
+00:08:51,160 --> 00:08:53,800
+Tyler Schultz, dedesi George Schultz'sa,
+
+193
+00:08:53,840 --> 00:08:57,240
+Terranos'un sahtekarlığını yıllar boyunca anlatmaya çalıştı.
+
+194
+00:08:57,240 --> 00:09:00,160
+Dedesi son nefesine kadar Holmes'a inandı.
+
+195
+00:09:00,160 --> 00:09:03,240
+George Schultz 2021 Şubat'ında öldü.
+
+196
+00:09:03,240 --> 00:09:06,960
+Bir yıl önce torununun ne kadar haklı olduğunu hiç bilmedi.
+
+197
+00:09:06,960 --> 00:09:10,160
+Bazı yalanlar sadece para değil, aile de yıkar.
+
+198
+00:09:10,160 --> 00:09:12,000
+Eğer bu video hoşuna gittiyse,
+
+199
+00:09:12,000 --> 00:09:15,680
+Diji Zihin'e abone olmayı ve yorumlarda bir sonraki teknoloji,
+
+200
+00:09:15,680 --> 00:09:19,440
+dolandırıcılık hikayesini hangisini istediğini yazmayı unutma.
+
+201
+00:09:19,440 --> 00:09:20,240
+WeWork mu?
+
+202
+00:09:20,240 --> 00:09:21,200
+FTX mi?
+
+203
+00:09:21,200 --> 00:09:22,040
+Nikola mı?
+
+204
+00:09:22,160 --> 00:09:24,560
+Söyle, sıradaki bölüm seninkini anlatsın.
+
+205
+00:09:24,560 --> 00:09:25,560
+Görüşmek üzere.
+
