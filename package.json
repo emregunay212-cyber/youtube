@@ -23,12 +23,23 @@
     "approve": "tsx scripts/upload-after-approval.ts --approve",
     "reject": "tsx scripts/upload-after-approval.ts --reject",
     "yt:auth": "tsx scripts/tools/refresh-yt-token.ts",
-    "remotion:studio": "remotion studio remotion/src/Root.tsx"
+    "remotion:studio": "remotion studio remotion/src/Root.tsx",
+    "diji:generate": "tsx scripts/tools/generate-diji.ts",
+    "diji:animate": "tsx scripts/tools/animate-diji.ts",
+    "diji:clean": "tsx scripts/tools/clean-diji.ts",
+    "diji:demo": "remotion render remotion/src/index.ts DijiPresenter out/diji-demo.mp4 --concurrency=1",
+    "diji:studio": "remotion studio remotion/src/index.ts"
   },
   "dependencies": {
-    "@remotion/bundler": "^4.0.270",
-    "@remotion/cli": "^4.0.270",
-    "@remotion/renderer": "^4.0.270",
+    "@gltf-transform/core": "^4.3.0",
+    "@gltf-transform/extensions": "^4.3.0",
+    "@react-three/drei": "^9.114.0",
+    "@react-three/fiber": "^8.17.10",
+    "@remotion/bundler": "^4.0.454",
+    "@remotion/cli": "^4.0.454",
+    "@remotion/renderer": "^4.0.454",
+    "@remotion/three": "^4.0.454",
+    "@types/three": "^0.184.0",
     "axios": "^1.7.9",
     "dotenv": "^16.4.7",
     "fast-xml-parser": "^4.5.1",
@@ -38,8 +49,9 @@
     "p-limit": "^6.2.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "remotion": "^4.0.270",
-    "zod": "^3.24.1"
+    "remotion": "^4.0.454",
+    "three": "^0.184.0",
+    "zod": "^4.3.6"
   },
   "devDependencies": {
     "@types/fluent-ffmpeg": "^2.1.27",
